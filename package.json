@@ -1,7 +1,6 @@
 {
-  "name": "@joinf-mango/hello",
+  "name": "hello",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
     "serve": "npm run dev",
