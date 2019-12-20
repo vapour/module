@@ -1,3 +1,3 @@
-import hello from './hello'
+import mod from './app'
 
-export default hello
+export default mod

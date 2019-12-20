@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import hello from 'joinf-hello'
+import hello from './lib/app.vue'
 export default {
   name: 'app',
   components: {
