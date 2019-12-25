@@ -1,22 +1,31 @@
 # 前端组件开发规范
 
-## 内置组件
-* **element-ui** 公司项目都使用了element-ui，因为可组件中可直接使用element-ui，不必单独引入
-* **axios** 可直接`this.axios`或`this.$axios`
+## demo
+这个示例地址不用修改，自动生成
 
+[查看示例](http://npm.joinf.com/demo/<%= fullName %>/dist/index.html)
 
-## svn目录
-根据组件适用范围选择合适的目录
+## API
+### props
+属性 | 说明 | 类型 | 默认值 |
+:- | :- | :- | :- |
+size | 选择框大小，可选值为**large**、**small**、**default**或者不填 | String | **default** |
+clearable | 是否可以清空选项 | Boolean | false |
 
+### 事件
+事件名 | 说明 | 返回值 |
+:- | :- | :- |
+on-clear | 清空时触发 | 无 |
+on-change | 变化时触发 | 当前值 |
 
-## 新建组件
-```bash
-# 绑定公司私有npm
-npm set registry http://npm.joinf.com
+### 方法
+方法名 | 说明 | 参数 |
+:- | :- | :- |
+select | 选择指定项 | (index = 索引值) |
+on-change | 变化时触发 |  |
 
-# 安装命令行工具
-npm install -g @joinf-global/joinf2e
-
-# 初始化新组件
-joinf2e init component
-```
+### slot
+名称 | 说明 |
+:- | :- |
+无 | 主体内容 |
+title | 自定义标题 |

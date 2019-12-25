@@ -122,7 +122,7 @@ module.exports = {
     // https://github.com/webpack-contrib/webpack-bundle-analyzer
     webpackBundleAnalyzer: {
       // 开发环境不开启
-      analyzerMode: NODE_ENV === 'development' ? 'disalbed' : 'static',
+      analyzerMode: 'disalbed',
       openAnalyzer: false,
       // https://webpack.js.org/configuration/stats/
       statsOptions: {
