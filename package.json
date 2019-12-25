@@ -1,6 +1,7 @@
 {
   "name": "<%= fullName %>",
   "version": "1.0.0",
+  "description": "<%= description %>",
   "scripts": {
     "dev": "vue-cli-service serve",
     "serve": "npm run dev",
