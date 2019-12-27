@@ -10,6 +10,7 @@ const resolve = dir => {
 }
 
 module.exports = {
+  publicPath: './',
   configureWebpack: config => {
     let ret = {
       performance: {
