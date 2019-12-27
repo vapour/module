@@ -3,6 +3,8 @@
 ## demo
 这个示例地址不用修改，自动生成
 
+提交svn后，10分钟内自动生成demo
+
 [查看示例](http://npm.joinf.com/demo/<%= fullName %>/dist/index.html)
 
 ## API
