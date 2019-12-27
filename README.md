@@ -5,7 +5,7 @@
 
 提交svn后，10分钟内自动生成demo
 
-[查看示例](http://npm.joinf.com/demo/<%= fullName %>/dist/index.html)
+[查看示例](http://npm.joinf.com/demo/<%= fullName %>/index.html)
 
 ## API
 ### props
