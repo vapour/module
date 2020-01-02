@@ -1,5 +1,8 @@
 # 前端组件开发规范
 
+## 说明
+组件的功能介绍
+
 ## demo
 这个示例地址不用修改，自动生成
 
@@ -31,3 +34,17 @@ on-change | 变化时触发 |  |
 :- | :- |
 无 | 主体内容 |
 title | 自定义标题 |
+
+## vscode代码片断
+```json
+{
+	"development code": {
+	 	"scope": "javascript,typescript,vue",
+	 	"prefix": "devcode",
+	 	"body": [
+			"<joinf-hello :size="$1" @on-change="$2"></joinf-hello>"
+	 	],
+	 	"description": "只在开发阶段运行代码"
+	}
+}
+```
